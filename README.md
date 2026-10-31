@@ -14,8 +14,8 @@ This project demonstrates an end-to-end Single-Cell RNA Sequencing (scRNA-seq) b
 2. **Quality Control (QC) & Filtering**:
    - Calculated mitochondrial gene expression percentage (`percent.mt`).
    - Filtered out low-quality/dying cells and doublets using standard thresholds:
-     - $200 < \text{nFeature\_RNA} < 2500$
-     - $\text{percent.mt} < 5\%$
+   - 200 < nFeature_RNA < 2500
+   - percent.mt < 5%
    - Retained **2,638 high-quality single cells** for downstream analysis.
 
 3. **Data Normalization & Feature Selection**:
