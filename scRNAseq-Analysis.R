@@ -59,7 +59,7 @@ DimPlot(pbmc, reduction = "umap", label = TRUE)
 # ------------------------------------------------------------------------------
 # Assign canonical cell type markers
 new.cluster.ids <- c("Naive CD4 T", "CD14+ Mono", "Memory CD4 T", "B", 
-                     "CD8 T", "FCGR3A+ Mono", "NK", "DC", "Platelet")
+                     "CD8 T", "FCGR3A+ Mono", "NK", "DC", "PlateletS")
 names(new.cluster.ids) <- levels(pbmc)
 pbmc <- RenameIdents(pbmc, new.cluster.ids)
 
